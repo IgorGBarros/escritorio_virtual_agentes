@@ -1,0 +1,18 @@
+[project]
+name = "ai-office-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+[tool.pylance]
+extraPaths = ["."]
+root = "."
+
+[tool.pyright]
+extraPaths = ["."]
+venvPath = "."
+venv = "venv"
+include = ["backend/**", "api/**", "core/**", "memory/**", "services/**", "utils/**"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

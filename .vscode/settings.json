@@ -1,0 +1,13 @@
+{
+    "python-envs.pythonProjects": [
+        {
+            "path": "escritorio-virtual/src/types",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ],
+    "python.analysis.extraPaths": [
+        "./ai-office-",
+        "./ai-office-"
+    ]
+}
